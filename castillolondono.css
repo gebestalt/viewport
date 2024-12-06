@@ -90,11 +90,23 @@ table {
     header, footer {
         background-color: var(--black);
         color: var(--white);
+        border-top: 2px solid var(--blue-gray);
+        border-bottom: 2px solid var(--blue-gray);
     }
 
     section {
         background-color: var(--blue-gray);
         color: var(--white);
+        border: 1px solid var(--dark-gray);
+    }
+
+    a {
+        color: var(--blue);
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: var(--pink);
     }
 }
 
@@ -268,6 +280,7 @@ img{
 
     section{
         background-color: var(--light-gray);
+        color: var(--black);
     }
 
     #one{
@@ -331,7 +344,7 @@ img{
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
 img {
-    width: 300px;
+    width: 100%;
     max-width: 300px;
     height: auto;
 } 
